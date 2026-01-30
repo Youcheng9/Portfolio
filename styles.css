@@ -98,27 +98,6 @@ nav a:hover {
     opacity: 0.8;
 }
 
-.resume-link-nav {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    color: #ffffff !important;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.resume-link-nav:hover {
-    opacity: 1 !important;
-    transform: translateY(-2px);
-}
-
-.resume-link-nav svg {
-    transition: transform 0.3s ease;
-}
-
-.resume-link-nav:hover svg {
-    transform: translateY(2px);
-}
 
 /* ========== HERO SECTION ========== */
 .hero {
@@ -583,11 +562,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .resume-link-nav {
-        padding: 0.6rem 1rem;
-        min-height: 44px;
-    }
+
     
     /* Hero */
     .hero {
