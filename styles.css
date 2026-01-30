@@ -257,9 +257,7 @@ nav a:hover {
 .project-item {
     max-width: 1400px;
     margin: 0 auto 20px;
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    gap: 40px;
+    display: block;
     padding: 20px;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -269,47 +267,6 @@ nav a:hover {
 .project-item:hover {
     opacity: 0.8;
     background-color: #e7e7e7;
-}
-
-.project-item:nth-child(even) {
-    grid-template-columns: 1fr 150px;
-}
-
-.project-item:nth-child(even) .project-image {
-    order: 2;
-}
-
-.project-item:nth-child(even) .project-content {
-    order: 1;
-    text-align: right;
-}
-
-.project-item:nth-child(even) .project-tech {
-    justify-content: flex-end;
-}
-
-.project-item:nth-child(even) .project-links {
-    justify-content: flex-end;
-}
-
-.project-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative;
-}
-
-.project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.project-item:hover .project-image img {
-    transform: scale(1.05);
 }
 
 .project-content {
@@ -583,17 +540,9 @@ footer {
         grid-template-columns: 2fr 1fr;
     }
     
+    
     .project-item {
-        grid-template-columns: 180px 1fr;
-    }
-    
-    .project-item:nth-child(even) {
-        grid-template-columns: 1fr 180px;
-    }
-    
-    .project-image {
-        width: 180px;
-        height: 180px;
+        padding: 20px;
     }
 }
 
@@ -702,33 +651,9 @@ footer {
     }
     
     /* Projects */
-    .project-item,
-    .project-item:nth-child(even) {
-        grid-template-columns: 1fr;
-        gap: 20px;
+    .project-item {
         margin-bottom: 30px;
         padding: 15px;
-    }
-    
-    .project-item:nth-child(even) .project-image {
-        order: 1;
-    }
-    
-    .project-item:nth-child(even) .project-content {
-        order: 2;
-        text-align: left;
-    }
-    
-    .project-item:nth-child(even) .project-tech,
-    .project-item:nth-child(even) .project-links {
-        justify-content: flex-start;
-    }
-    
-    .project-image {
-        width: 100%;
-        max-width: 300px;
-        height: 200px;
-        margin: 0 auto;
     }
     
     .project-title {
