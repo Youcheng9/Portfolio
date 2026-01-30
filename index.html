@@ -10,124 +10,289 @@
     <header>
         <nav>
             <div class="logo">Youcheng Taing</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="./resume.pdf" class="resume-link-nav" target="_blank" download>Resume</a></li> -->
+                <li>
+    <a href="YouchengTaing_Resume.pdf" class="resume-link-nav" target="_blank" download>
+        Resume
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+    </a>
+</li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="hero">
+    <div id="home" class="hero">
         <h1>Data Scientist & ML Engineer</h1>
         <p>Transforming data into actionable insights and building intelligent solutions</p>
-    </section>
+    </div>
 
-    <section id="about">
-            <h2>About Me</h2>
+        <section id="about">
+            <h2 class="section-heading">About Youcheng</h2>
+            <div class="section-content">
+                <div class="about-wrapper">
+                    <div class="about-text">
+                        <p>I'm a passionate student in data science, machine learning, and data analysis with a strong foundation in mathematics and computer science. Currently pursuing my Bachelor's degree at California State Polytechnic University Pomona, I'm diving deep into the world of AI and ML.</p>
+                        
+                        <p>My journey in data science has led me to work on exciting projects from autonomous vehicle computer vision systems to NLP sentiment analysis. I love working at the intersection of theory and application, building models that solve real-world problems.</p>
+                        
+                        <p>When I'm not analyzing data or training models, I'm usually hanging out with my cat, hunting for the best hotpot spots in town, or teaching myself new skills to stay ahead in the rapidly evolving field of AI/ML.</p>
+                        <p>Feel free to explore my portfolio and reach out if you'd like to collaborate or just chat about all things data!</p>
+                    </div>
+
+                    
+                    <div class="about-image">
+                        <img src="profile.jpg" alt="Youcheng Taing">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- <section id="about">
+            <h2 class="about-section">About Me</h2>
             <div class="about-content">
-                <p>I'm a passionate data scientist with expertise in machine learning, deep learning, and statistical analysis. With a strong foundation in mathematics and computer science, I specialize in building predictive models and extracting meaningful insights from complex datasets.</p>
-                <p style="margin-top: 1rem;">I love tackling challenging problems and turning data into actionable solutions that drive business value. When I'm not analyzing data, you can find me contributing to open-source projects and staying up-to-date with the latest developments in AI/ML.</p>
+                <p>I'm a passionate student in data science, machine learning, and data analysis with a strong foundation in mathematics and computer science. </p>
+                <p style="margin-top: 1rem;">I love tackling challenging problems and turning data into actionable solutions that drive business value. When I'm not analyzing data, I love to stay up-to-date with the latest developments in AI/ML and teach myself new skills that will help me in careers.</p>
+            </div>
+    </section> -->
+
+        <section id="experience" class="exp">
+                <h2 class="section-heading">Experience</h2>
+                <div class="section-content">
+                    <div class="experience-item">
+                        <div class="timeline-marker">Jan 2026 — Present</div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Qcar Research Assistant · AIoT Laboratory
+                            </h3>
+                            <p>Developing and evaluating computer vision pipelines for object detection and lane detection on the Quanser Qcar autonomous platform. Collecting, cleaning, and labeling driving datasets to support supervised learning. Evaluating model performance using accuracy, precision, recall, and inference speed metrics.</p>
+                            <ul class="tech-list">
+                                <li>Python</li>
+                                <li>Computer Vision</li>
+                                <li>Object Detection</li>
+                                <li>Supervised Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="timeline-marker">Aug 2025 — Present</div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Member · Autonomous Vehicle Laboratory
+                            </h3>
+                            <p>Developing a pre-trained YOLOv8 model on thermal and RGB images for object detection, optimizing with data labeling, transforming, and model training in PyTorch. Leveraging PyTorch and OpenCV for efficient dataset handling, augmentation, visualization, and real-time object detection on custom datasets. Analyzed and visualized model performance using precision and recall metrics.</p>
+                            <ul class="tech-list">
+                                <li>Python</li>
+                                <li>PyTorch</li>
+                                <li>YOLOv8</li>
+                                <li>OpenCV</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="timeline-marker">Oct 2023 — Dec 2024</div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Tutor · Chaffey College Success Center
+                            </h3>
+                            <p>Tutored students in computer science and computer information systems courses using in-depth reviews and practical examples, increasing grades by 20% on average. Explained technical concepts to students in Microsoft Office applications, resulting in higher proficiency and overall course performance.</p>
+                            <ul class="tech-list">
+                                <li>Python</li>
+                                <li>C++</li>
+                                <li>Teaching</li>
+                                <li>Technical Communication</li>
+                                <li>Microsoft Suites</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- <a href="/resume.pdf" class="resume-link">
+                        View Full Résumé
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a> -->
+                </div>
+        </section>
+
+
+        <section id="projects" class="section">
+            <h2 class="section-heading">Projects</h2>
+            <div class="section-content">
+                <ul class="projects-list">
+
+                    
+                    <li class="project-item">
+                        <div class="project-image">
+                            <a href="#" target="_blank">
+                                <img src="Legal_doc.jpg" alt="Legal Document Tool - RAG">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3><a href="#" class="project-title">Legal Document Tool - RAG</a></h3>
+                            <p class="project-description">Built a retrieval-augmented generation (RAG) system for semantic search and question answering over legal PDFs, featuring automated document preprocessing, vector-based retrieval with ChromaDB, and FastAPI endpoints for ingestion and LLM-powered responses.<p>
+                            <ul class="project-tech">
+                                <li>Python</li>
+                                <li>PyTorch</li>
+                                <li>YOLOv8</li>
+                                <li>OpenCV</li>
+                                <li>Computer Vision</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/Youcheng9/Legal-Document-RAG-Tool" target="_blank" aria-label="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="External Link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="project-item">
+                        <div class="project-image">
+                            <a href="#" target="_blank">
+                                <img src="NLP.jpg" alt="YouTube Sentiment Analysis">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3><a href="#" class="project-title">YouTube Comment Sentiment Analysis</a></h3>
+                            <p class="project-description">Collected and processed YouTube comment data using YouTube Data API v3. Fine-tuned a RoBERTa-based NLP model for sentiment classification using TensorFlow. Deployed on Streamlit dashboard, allowing users to input a YouTube URL to explore real-time sentiment analysis.</p>
+                            <ul class="project-tech">
+                                <li>NLP</li>
+                                <li>Python</li>
+                                <li>RoBERTa</li>
+                                <li>TensorFlow</li>
+                                <li>Streamlit</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/Coolguy4123/YouTube-Comment-Sent-Analysis/tree/main" target="_blank" aria-label="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="External Link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="project-item">
+                        <div class="project-image">
+                            <a href="#" target="_blank">
+                                <img src="Diabetes_predictor.jpg" alt="Diabetes Prediction Model">
+                            </a>
+                        </div>
+                        <div class="project-content">
+                            <h3><a href="#" class="project-title">Diabetes Prediction Model</a></h3>
+                            <p class="project-description">Built a predictive diabetes model using a Kaggle dataset, with logistic regression achieving 85% accuracy. Conducted exploratory data analysis (EDA) on patient health records to identify trends, and optimized the model using GridSearchCV. Deployed a Streamlit web application for real-time diabetes risk predictions.</p>
+                            <ul class="project-tech">
+                                <li>Python</li>
+                                <li>Pandas</li>
+                                <li>Scikit-learn</li>
+                                <li>Streamlit</li>
+                                <li>GridSearchCV</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/Youcheng9/Diabetes_prediction" target="_blank" aria-label="GitHub">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://diabetesprediction-fcboi7gmzujekkoybatfdp.streamlit.app/" target="_blank" aria-label="External Link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                
+                </ul>
             </div>
         </section>
 
-    <div class="container">
-        <section id="projects">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">📊</div>
-                    <div class="project-content">
-                        <h3 class="project-title">Customer Churn Prediction</h3>
-                        <p class="project-description">Built a machine learning model to predict customer churn with 89% accuracy using ensemble methods.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Scikit-learn</span>
-                            <span class="tag">XGBoost</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">🤖</div>
-                    <div class="project-content">
-                        <h3 class="project-title">NLP Sentiment Analysis</h3>
-                        <p class="project-description">Developed a sentiment analysis system for social media data using transformers and BERT.</p>
-                        <div class="project-tags">
-                            <span class="tag">PyTorch</span>
-                            <span class="tag">BERT</span>
-                            <span class="tag">NLP</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-content">
-                        <h3 class="project-title">Image Classification CNN</h3>
-                        <p class="project-description">Created a convolutional neural network for medical image classification achieving 94% accuracy.</p>
-                        <div class="project-tags">
-                            <span class="tag">TensorFlow</span>
-                            <span class="tag">CNN</span>
-                            <span class="tag">Computer Vision</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
         <section id="skills">
             <h2>Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>R</li>
-                        <li>SQL</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>ML/DL Frameworks</h3>
-                    <ul>
-                        <li>TensorFlow</li>
-                        <li>PyTorch</li>
-                        <li>Scikit-learn</li>
-                        <li>Keras</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Analysis</h3>
-                    <ul>
-                        <li>Pandas</li>
-                        <li>NumPy</li>
-                        <li>Matplotlib</li>
-                        <li>Seaborn</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                        <li>Jupyter</li>
-                    </ul>
+            <div class="skills-content">
+                
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag skill-learning">Java</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">ML/DL Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Keras</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Data Analysis & Visualization</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Seaborn</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Tableau</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Computer Vision & NLP</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">YOLOv8</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">RoBERTa</span>
+                            <span class="skill-tag">BERT</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git/GitHub</span>
+                            <span class="skill-tag">Jupyter  Notebook</span>
+                            <span class="skill-tag">Streamlit</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag skill-learning">Docker</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -135,22 +300,42 @@
 
         <section id="contact">
             <h2>Get In Touch</h2>
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" required>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always open to discussing new projects, opportunities, or just chatting about data science and ML. 
+                    Feel free to reach out through any of these platforms!
+                </p>
+                
+                <div class="contact-links">
+                    <a href="mailto:youchengtaing9999@gmail.com" class="contact-link" target="_blank">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>youchengtaing9999@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/youcheng-taing-03423226a" class="contact-link" target="_blank">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>Youcheng Taing</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-            </form>
+            </div>
         </section>
+
+
     </div>
 
     <footer>
